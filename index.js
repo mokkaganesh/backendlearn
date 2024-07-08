@@ -13,6 +13,10 @@ app.get('/names', (req, res) => {
     res.send('Hello Names!')
 })
 
+app.get('/about', (req, res) => {
+    res.send('<h1>About Page</h1>')
+}
+)
 app.get('/login',(req,res)=>{
     res.send('<h1>Login Page</h1>')
 })
